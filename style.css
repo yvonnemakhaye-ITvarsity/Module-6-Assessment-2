@@ -1,0 +1,205 @@
+
+
+
+/*=============== HEADER =============*/
+#header{
+      position: fixed;
+      top     : 0;
+      left    : 0;
+      z-index : 500;
+      width   :100%;
+      height  :80px;
+      background-image  : url('images/strip.jpg');
+      background-repeat: repeat-x;
+}
+
+#header img{
+      display: block;
+      margin : auto;
+      height : 70%;
+      padding-top: 15px; 
+}
+
+
+/*=============== TOP-TABS =============*/
+#tabs-top{
+      position: fixed;
+      top     : 80px;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 40px;
+      background-color: goldenrod;
+}
+
+#tabs-top a{
+      float   : left;
+      display : block;
+      width   : 33%;
+      height  :35px;
+      font-weight : 700;
+      color       : white;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     : 12px;  
+}
+
+/*============ BOTTOM-TABS ============*/
+#tabs-bottom{
+      position : fixed;
+      bottom   : 0;
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color: goldenrod;
+}
+
+#tabs-bottom a{
+     float : left;
+     display : block;
+     width : 33%;
+     height : 35px;
+     font-weight : 700;
+     color       : white;
+     text-align  : center;
+     text-decoration : none;
+     padding-top     : 12px;
+}
+
+/*============== MAIN ============*/
+#main{
+padding-top: 100px;
+padding-bottom: 50px;
+background-color: burlywood;
+background-repeat: repeat-y;
+}
+
+
+/*=================== CONTACT FORM ===============*/
+input{
+      width: 100%;
+      height: 25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+textarea{
+      width: 100%;
+      height :25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+.button{
+      display : block;
+      background-color: forestgreen;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
+
+/*=============INFO BOX ==============*/
+#info-box {
+      background-color : rgba;
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 12px;
+      padding    : 10px;
+}
+
+
+#info-box-full h1{
+      text-align : center;
+}
+
+
+#content {
+    width: 400%;
+}
+   
+#div1 {
+    
+    width: 25%;
+    float: left;
+}
+
+#div2 {
+    width: 25%;
+    margin: 0% auto;
+}
+
+
+#div3 {
+    width: 25%;
+margin: 0% auto;
+}
+
+#div4 {
+    width: 25%;
+    float: right;
+}
+
+/*============= MAIN-MOVIES ===========*/
+#main-movies {
+padding-top: 100px;
+padding-bottom: 50px;
+}
+
+.info-box-movie {
+      text-decoration : none;
+      background-color: cadetblue;
+      width           : 90%;
+      height          : 90px;
+      display         : block;
+      margin          : auto;
+      margin-top      : 12px;
+      padding         : 1px; 
+}
+
+.info-box-movie img{
+      height : 70px;
+      margin : 10px;
+      float  : left;
+}
+
+.info-box-movie h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : black;
+}
+
+.info-box-movie h4 {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: black;
+}
+
+.info-box-movie p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : 131313;
+}
+
+.info-box-movie img.right{
+      float      : right;
+      margin-top : 25px;
+      height     40px; 
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
